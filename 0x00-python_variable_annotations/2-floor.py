@@ -3,6 +3,6 @@
 as argument and returns the floor of the float."""
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """floor function takes a float n and returns the floor of the float"""
-    return n
+    return int(n)
