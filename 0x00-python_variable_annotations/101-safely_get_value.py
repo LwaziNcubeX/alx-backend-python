@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """A function that return values, add type annotations to the function """
 import typing
+T = typing.TypeVar('T')
 
 
 def safely_get_value(dct: typing.Mapping, key: typing.Any,
-                     default: typing.Union[typing.TypeVar, None] = None
-                     ) -> typing.Union[typing.Any, typing.TypeVar]:
+                     default: typing.Union[T, None] = None
+                     ) -> typing.Union[typing.Any, T]:
     """
     A function that return values, add type annotations to the function
     """
