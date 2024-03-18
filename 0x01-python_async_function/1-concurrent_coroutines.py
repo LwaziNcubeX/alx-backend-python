@@ -7,7 +7,7 @@ from typing import List
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-def selection_sort(arr):
+def selection_sort(arr: List[int]) -> None:
     """
     Selection sort for an array
     :param arr:
