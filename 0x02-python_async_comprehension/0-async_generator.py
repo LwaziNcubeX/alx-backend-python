@@ -3,11 +3,10 @@
 A coroutine called async_generator that takes no arguments.
 """
 import asyncio
-import typing
 from random import random
 
 
-async def async_generator() -> typing.AsyncGenerator[float, None]:
+async def async_generator():
     """
     Loops 10 times and sleeps 1 sec per loop then yields them
     """
